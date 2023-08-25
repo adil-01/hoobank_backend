@@ -25,7 +25,7 @@ import com.obs.backend.service.TransactionService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class BackendApplicationTests {
+public class ServiceTest {
 
 //	@Test
 //	void contextLoads() {
@@ -101,7 +101,7 @@ public class BackendApplicationTests {
 	}
 	
 	@Test
-	public void checkBalanceTest() {
+	public void validateBalanceTest() {
 		
 		// Assertion
 		assertEquals(2,  2);
