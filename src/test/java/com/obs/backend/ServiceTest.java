@@ -26,10 +26,6 @@ import com.obs.backend.service.TransactionService;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class ServiceTest {
-
-//	@Test
-//	void contextLoads() {
-//	}
 	
 	@Autowired
 	private AccountService accountService;
@@ -97,14 +93,6 @@ public class ServiceTest {
 		
 		// Assertion
 		assertEquals(3,  payeeService.getAllPayeesByAccNoService(acc_no).size());
-		
-	}
-	
-	@Test
-	public void validateBalanceTest() {
-		
-		// Assertion
-		assertEquals(2,  2);
 		
 	}
 				
